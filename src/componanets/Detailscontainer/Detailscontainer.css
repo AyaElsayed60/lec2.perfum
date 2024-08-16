@@ -1,0 +1,62 @@
+#Detailsdiv{
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+    row-gap: 8px;
+    border-radius: 0 10px 10px 0;
+
+}
+
+#pricediv{
+width: 100%;
+display:flex;
+column-gap: 35px;
+align-items: center;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+#Header{
+    margin: 0;
+    font-size: 32px;
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+#Discription{
+    margin: 0;
+    padding-top: 20px;
+    color: hsl(228, 12%, 48%);
+}
+
+#cartbtn{
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color:hsl(158, 36%, 37%);
+    color:White;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 7px;
+    font-weight: bold;
+}
+
+#pricelabel{
+font-size: 30px;
+font-weight: 900;
+color:hsl(158, 36%, 37%);
+}
+
+#discountprice{
+font-size: 12px;
+color: hsl(228, 12%, 48%);
+}
+
+#per{
+    color: hsl(228, 12%, 48%);
+}
